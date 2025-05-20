@@ -5,18 +5,21 @@ authors:
   - name: Elton Villalta
 ---
 
-![relevant graphic or workshop logo](image/path)
+![relevant graphic or workshop logo](/download.jpg)
 
 ## Introduction
 
-Write a short section on what the tutorial is aiming to accomplish.
+- I am aiming to create a LCD todolist that will just sit at my desk
 What is the motivation behind the tutorial?
+- I tend to forget a lot of the things I need to do throughout the day especially if its not in front of me.
 What do you want readers to gain from the tutorial?
-
+- Power. Aside from that, i hope readers can learn how to program a LCD display and be become more confident in wiring on a bread board.
 ### Learning Objectives
 
 - Bullet list of skills/concepts to be covered
-
+- Programming
+- prototyping
+  
 Any additional notes from the developers can be included here.
 
 ### Background Information
@@ -25,6 +28,7 @@ Describe your topic here. What does it do? Why do you use it?
 Are there other similar things to use? What are the pros and cons?
 Explain important concepts that are necessary to understand.
 Include (and cite if needed) any visuals that will help the audience understand.
+Its just going to be a todo list that is displaying tasks i need to complete for the day. There are other things similar to use but this could be made with common parts .
 
 ## Getting Started
 
@@ -40,11 +44,18 @@ the participant may need.
 The following are stylistic examples of possible prerequisites,
 customize these for each workshop.
 
+
+
 ### Required Downloads and Installations
 
 List any required downloads and installations here.
 Make sure to include tutorials on how to install them.
 You can either make your own tutorials or include a link to them.
+
+
+
+Arduino IDE
+(some driver i cant remember of the top of my head)
 
 ### Required Components
 
@@ -52,6 +63,9 @@ List your required hardware components and the quantities here.
 
 | Component Name | Quanitity |
 | -------------- | --------- |
+|        bread board        |      1     |
+|       16x2 lcd         |    1       |
+|          esp32s3      |       1    |
 |                |           |
 |                |           |
 
@@ -69,18 +83,23 @@ Briefly introduce what  you are teaching in this section.
 ### Objective
 
 - List the learning objectives of this section
-
+- Prototype board
+- Program display
 ### Background Information
 
 Give a brief explanation of the technical skills learned/needed
 in this challenge. There is no need to go into detail as a
 separation document should be prepared to explain more in depth
 about the technical skills
+- Some familiarity with Arduino
+
 
 ### Components
-
-- List the components needed in this challenge
-
+- Breadboard
+- 16x2 LCD
+- ESP32S3
+- Type C to Type C cable
+- 
 ### Instructional
 
 Teach the contents of this section
